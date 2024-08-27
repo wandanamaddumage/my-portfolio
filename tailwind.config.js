@@ -13,6 +13,13 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        sky: require("tailwindcss/colors").sky,
+        stone: require("tailwindcss/colors").stone,
+        neutral: require("tailwindcss/colors").neutral,
+        gray: require("tailwindcss/colors").gray,
+        slate: require("tailwindcss/colors").slate,
+      },
     },
     colors: {
       ...colors,

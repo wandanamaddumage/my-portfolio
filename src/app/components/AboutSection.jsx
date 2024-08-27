@@ -115,7 +115,12 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div>
-          <Image src="/images/about-image.png" width={500} height={500} />
+          <Image
+            src="/images/about-image.png"
+            alt="Description"
+            width={500}
+            height={500}
+          />
           <div className="mt-10">
             <div className="flex flex-row justify-start mt-8 gap-5">
               <TabButton
