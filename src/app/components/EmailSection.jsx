@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const EmailSection = () => {
   return (
-    <section id="contact" className="my-12 md:my-12 py-24 gap-4 relative">
+    <section id="contact" className="my-12 md:my-12 gap-4 relative">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-sm text-center">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">
