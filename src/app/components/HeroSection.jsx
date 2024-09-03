@@ -29,7 +29,7 @@ const HeroSection = () => {
             </div>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Frontend developer specializing in Next.js and TypeScript.
+            Turning complex challenges into elegant, efficient code.
           </p>
           <div>
             <Link
@@ -39,7 +39,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1mFppjXTcfZxTNoM7ebjAyIfK5OpA5bgP/view?usp=drive_link"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

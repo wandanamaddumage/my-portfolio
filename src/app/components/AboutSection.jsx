@@ -38,58 +38,62 @@ const TAB_DATA = [
     title: "Experience",
     id: "eperience",
     content: (
-      <div className="mr-5 sm:mr-10 md:mr-20 ">
+      <div className="mr-5 sm:mr-10 md:mr-20">
         <div className="flow-root">
           <ul
             role="list"
             className="divide-y divide-gray-200 dark:divide-gray-700"
           >
             <li className="py-3 sm:py-4">
-              <div className="flex items-center space-x-4">
-                <div className="flex-shrink-0">
-                  <Image
-                    src="/images/experience/softvil-logo.png"
-                    alt="hero image"
-                    className="w-10 h-10"
-                    width={300}
-                    height={300}
-                  />
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-4 sm:space-y-0">
+                <div className="flex items-center space-x-4">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src="/images/experience/softvil-logo.png"
+                      alt="hero image"
+                      className="w-10 h-10"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      Associate Software Engineer
+                    </p>
+                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                      <Link href="https://www.softvilmedia.com/">
+                        Softvil Technologies Pvt Ltd
+                      </Link>
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                    Associate Software Engineer
-                  </p>
-                  <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                    <Link href="https://www.softvilmedia.com/">
-                      Softvil Technologies Pvt Ltd
-                    </Link>
-                  </p>
-                </div>
-                <div className="inline-flex items-center text-sm font-semibold text-gray-900 dark:text-white">
+                <div className="text-sm font-semibold text-gray-900 dark:text-white">
                   Jun 2024 - Present
                 </div>
               </div>
             </li>
             <li className="py-3 sm:py-4">
-              <div className="flex items-center space-x-4">
-                <div className="flex-shrink-0">
-                  <Image
-                    src="/images/experience/softvil-logo.png"
-                    alt="hero image"
-                    className="w-10 h-10"
-                    width={300}
-                    height={300}
-                  />
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-4 sm:space-y-0">
+                <div className="flex items-center space-x-4">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src="/images/experience/softvil-logo.png"
+                      alt="hero image"
+                      className="w-10 h-10"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      Intern Software Engineer
+                    </p>
+                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                      Softvil Technologies Pvt Ltd
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                    Intern Software Engineer
-                  </p>
-                  <p className="text-sm text-gray-500 truncate dark:text-gray-400">
-                    Softvil Technologies Pvt Ltd
-                  </p>
-                </div>
-                <div className="inline-flex items-center text-sm font-semibold text-gray-900 dark:text-white">
+                <div className="text-sm font-semibold text-gray-900 dark:text-white">
                   Jun 2023 - Jun 2024
                 </div>
               </div>
